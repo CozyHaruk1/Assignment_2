@@ -1,0 +1,2 @@
+Hello from Node.js file system!
+This line was added using appendFile.

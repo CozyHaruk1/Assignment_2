@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "Alice",
+    "major": "Computer Science"
+  },
+  {
+    "id": 2,
+    "name": "Bob",
+    "major": "Information Technology"
+  },
+  {
+    "id": 3,
+    "name": "Cherry",
+    "major": "Software Engineering"
+  },
+  {
+    "id": 4,
+    "name": "David",
+    "major": "Data Science"
+  },
+  {
+    "id": 5,
+    "name": "Emma",
+    "major": "Cybersecurity"
+  }
+]
