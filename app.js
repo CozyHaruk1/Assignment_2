@@ -52,7 +52,6 @@ app.get("/", (req, res) => {
     <p>POST /api/students must be tested using curl or an API testing tool.</p>
   `);
 });
-
 // Student API routes
 const studentRoutes = require("./routes/students");
 
