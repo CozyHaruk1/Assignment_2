@@ -40,14 +40,16 @@ app.get("/", (req, res) => {
   res.send(`
     <h1>Student API</h1>
     <p>Welcome to the Student API Server.</p>
+
     <ul>
-      <li>GET /api/students</li>
-      <li>GET /api/students/:id</li>
-      <li>GET /api/count</li>
-      <li>GET /api/students/random</li>
-      <li>POST /api/students</li>
-      <li>GET /students</li>
+      <li><a href="/api/students">GET /api/students</a></li>
+      <li><a href="/api/students/1">GET /api/students/:id</a></li>
+      <li><a href="/api/count">GET /api/count</a></li>
+      <li><a href="/api/students/random">GET /api/students/random</a></li>
+      <li><a href="/students">GET /students</a></li>
     </ul>
+
+    <p>POST /api/students must be tested using curl or an API testing tool.</p>
   `);
 });
 
